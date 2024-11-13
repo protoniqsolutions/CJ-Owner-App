@@ -155,7 +155,7 @@ class _PricingitemViewState extends State<PricingitemView> {
                                 Text('Address: ${item.companyAddress}'),
                                 Text('Quantity: ${item.qty}'),
                                 Text('Rate: ${item.rate}'),
-                                Text('Amount of Items: ${double.tryParse(item.amountOfItems)?.toStringAsFixed(2)}'),
+                                Text('Cost of Items: ${double.tryParse(item.amountOfItems)?.toStringAsFixed(2)}'),
                                 if (item.margin != null)
                                   Text('Margin: ${double.tryParse(item.margin!)?.toStringAsFixed(2)}'),
                                 if (item.price != null)

@@ -106,7 +106,7 @@ class _PreordersViewState extends State<PreordersView> {
             children: [
               pw.Center(
                 child: pw.Text(
-                  'CJ System',
+                  'CJ Food Products',
                   style: pw.TextStyle(
                     fontSize: 28,
                     fontWeight: pw.FontWeight.bold,
